@@ -1,0 +1,30 @@
+{
+  "name": "findout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roy-ElHaddad/FindOut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roy-ElHaddad/FindOut/issues"
+  },
+  "homepage": "https://github.com/Roy-ElHaddad/FindOut#readme",
+  "devDependencies": {
+    "devmon": "^0.0.1",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}
