@@ -4,13 +4,22 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>FindOut</title>
+		<link rel="stylesheet" href="/styles/main.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 	</head>
 	<body>
-		<%- include('../partials/header.ejs') %>
-		<%- include('../partials/errorMessage.ejs') %>
-		<br />
-		<%- body %>
-		<br />
+		<div class = "navbar">
+			<%- include('../partials/header.ejs') %>
+		</div>
+
+		<div class = "errorMessage">
+			<%- include('../partials/errorMessage.ejs') %>
+		</div>
+		
+		<div class = "inner-container">
+			<%- body %>
+		</div>
+
 		<p>This is where the footer will go soredi terms&conditions and policy</p>
 	</body>
 </html>
